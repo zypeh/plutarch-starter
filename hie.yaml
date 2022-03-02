@@ -1,0 +1,10 @@
+cradle:
+  cabal:
+  - path: "./lib"
+    component: "lib:plutarch-starter"
+
+  - path: "./app"
+    component: "plutarch-starter:exe:plutarch-starter"
+
+  - path: "./app/Paths_plutarch_starter"
+    component: "plutarch-starter:exe:plutarch-starter"
