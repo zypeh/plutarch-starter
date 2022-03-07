@@ -19,3 +19,8 @@ source-repository-package
   --sha256: 1vkhcj7rhxdzzxl5mgc1nhj8knvdg33kygw1187m25ckqsb5mnfb
 ```
 > The hash has to be commented, and the tag is actually the commit hash in git.
+
+## Build and run
+```
+hpack && cabal run
+```
